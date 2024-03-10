@@ -1,4 +1,4 @@
-# 1-projeto-videos-recomendados
+# Projeto Vídeos Recomendados
 
   É um projeto **simples**, que consiste uma página principal e outras 4 páginas de navegação onde coloco em prática alguns conceitos aprendidos de HTML Básico.
 
