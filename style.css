@@ -1,14 +1,24 @@
 @charset "UTF-8";
 
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
 body{
-    background-color: rgb(28, 26, 26);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), darkblue);
+    width: 100vw;
+    height: 100vh;
+    font-weight: bolder;
 }
 
 h1{ 
-    color: white; 
-    font-style: normal; 
+    color: white;  
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 3px red;
   }
 
   p{
@@ -17,6 +27,7 @@ h1{
 
   a{
     color: white;
+    font-weight: bolder;
 }
 
 p > a > img.thumb {
@@ -25,9 +36,20 @@ p > a > img.thumb {
   margin: 10px;
 }
 
+
 p > a.playlist:hover {
   color: red;
   font-weight: bolder;
   transition: 0.5s;
+}
+
+p > a > img.thumb:hover {
+  border: 3px solid white;
+  transition: 0.1s;
+  transition-timing-function: ease;
+}
+
+p > a > img.thumb:active {
+  border: 3px solid red;
 }
 
